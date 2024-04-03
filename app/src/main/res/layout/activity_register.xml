@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="700dp"
+    android:background="@drawable/registrer"
+    tools:context=".Buyers.RegisterActivity">
+
+    <EditText
+        android:id="@+id/register_username"
+        android:layout_width="326dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/input_design"
+        android:hint="Name"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/register_phone_number"
+        android:layout_width="326dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/register_username"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/input_design"
+        android:hint="PhoneNumber"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/register_password"
+        android:layout_width="326dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/register_phone_number"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/input_design"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+  <Button
+      android:id="@+id/register_btn"
+      android:layout_width="500dp"
+      android:layout_height="50dp"
+      android:layout_below="@id/register_password"
+      android:layout_marginLeft="12dp"
+      android:layout_marginTop="6dp"
+      android:layout_marginRight="40dp"
+      android:background="@drawable/buttons"
+      android:padding="10dp"
+      android:text="Create Account"
+      android:textAllCaps="false"
+      android:textSize="25sp" />
+
+
+</RelativeLayout>
